@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(trial.webp);
+    background-size: contain;
+}
+
+h1 {
+    color:aliceblue;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#img{
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#strength-meter {
+    height: 10px;
+    background-color: #ddd;
+    margin-bottom: 10px;
+}
+
+#strength-bar {
+    height: 100%;
+    width: 0;
+    transition: width 0.3s;
+}
+
+#password-strength {
+    font-weight: bold;
+}
